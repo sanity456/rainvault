@@ -1,0 +1,53 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "estimate": {
+      "params": [
+        [
+          "estimate_key",
+          "string"
+        ],
+        [
+          "roof_description",
+          "string"
+        ],
+        [
+          "area_m2",
+          "int"
+        ],
+        [
+          "rainfall_mm",
+          "int"
+        ],
+        [
+          "tank_liters",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "estimate_count": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "get_estimate": {
+      "params": [
+        [
+          "estimate_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    }
+  }
+}
