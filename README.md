@@ -1,5 +1,7 @@
 # RainVault
 
+SUBMISSION HOLD: This version is a one-party, self-declared rainwater estimate. Although its local and StudioNet tests passed, it lacks a shared decision or independently sourced evidence strong enough for the current GenLayer review standard. Do not submit this deployment as a review-ready intelligent contract. A different mechanism and new deployment are required.
+
 Batch C1. A reusable GenLayer intelligent contract for an indicative rainwater-capture calculation. A caller supplies one roof-surface description, catchment area, rainfall depth, and tank capacity. Independent validators categorize the surface; deterministic code applies the documented coefficient and computes captured liters, overflow, and a capacity status.
 
 This is a rough scenario estimate from declared inputs. It neither verifies a real property nor predicts actual weather or safe installation capacity. `UNCLEAR` surfaces receive no positive capture estimate. Do not use this result for engineering or flood-safety decisions without professional measurements.

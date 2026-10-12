@@ -1,5 +1,7 @@
 # Release audit
 
+SUBMISSION HOLD (2026-10-12): The earlier technical checks below do not establish review suitability. This version is a one-party estimate from caller declarations, with no consensus-critical shared settlement or independent evidence source. The earlier StudioNet address remains a test artifact, not a recommended submission. A substantially different contract and new deployment are required.
+
 - Mechanism: consensus classifies one catchment surface; a fixed coefficient table computes indicative liters, tank overflow, and capacity status. It does not aggregate supplier categories or select time slots.
 - Source policy: roof description, area, rainfall, and tank capacity are public caller declarations. No property records or weather sources are fetched.
 - Security: caller-scoped immutable records, input bounds, strict model-label parsing, independent validator rerun, and no funds or privileged global registry.
